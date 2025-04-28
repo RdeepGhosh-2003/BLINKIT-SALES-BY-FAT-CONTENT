@@ -1,5 +1,5 @@
 # BLINKIT-SALES-BY-FAT-CONTENT
-📊 Project Overview -
+📊 Project Overview 
 
 This Power BI dashboard analyzes Blinkit's product sales segmented by fat content.
 It provides actionable insights into sales distribution, product performance, and customer preferences related to fat content categories.
@@ -28,6 +28,7 @@ Time period
 Specific fat content levels
 
 🛠️ Built With
+
 Power BI Desktop
 Data Modeling (using DAX and Power Query)
 Custom Visuals (standard Power BI visuals)
