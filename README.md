@@ -1,39 +1,92 @@
-# Project Overview 
- 
-This Power BI dashboard analyzes Blinkit's product sales segmented by fat content.
-It provides actionable insights into sales distribution, product performance, and customer preferences related to fat content categories.
 
-The dashboard is intended to help business analysts and category managers make data-driven decisions to optimize product offerings and marketing strategies.
+# 🛒 Blinkit Grocery Sales Analysis | Power BI & SQL Project
 
-# Dashboard Highlights
+This project delivers an in-depth sales performance analysis for Blinkit (formerly Grofers), using Power BI dashboards and SQL-based data transformation. The focus is on understanding how different product attributes and outlet characteristics influence total sales, customer satisfaction, and inventory distribution.
 
-Sales by Fat Content -
-Visual breakdown of sales volume and revenue across different fat categories (e.g., Low Fat, Regular, Full Fat).
+---
 
-Top-Selling Products -
-List of best-performing products within each fat category.
+## 📌 Project Objective
 
-Revenue Trends -
-Time-series analysis showing how fat content impacts revenue over time.
+To provide actionable insights into sales trends, customer preferences, and operational efficiencies by analyzing Blinkit grocery data with various KPIs, charts, and SQL-driven metrics.
 
-Category & Subcategory Breakdown -
-Comparison of sales across multiple product categories and subcategories.
+---
 
-Filters/Slicers -
-Dynamic filters to view sales by:
+## 🧪 KPIs & Metrics Analyzed
 
-Product category
+- **Total Sales** – Overall revenue generated
+- **Average Sales** – Revenue per transaction or unit sold
+- **Number of Items Sold** – Total quantity of products sold
+- **Average Rating** – Customer satisfaction indicator
 
-Subcategory
+---
 
-Time period
+## 🔍 Analytical Focus Areas
 
-Specific fat content levels
+| Area                              | Objective                                                                 |
+|-----------------------------------|---------------------------------------------------------------------------|
+| **Sales by Fat Content**          | Identify impact of nutritional fat level on sales, quantity, and rating  |
+| **Sales by Item Type**            | Rank item categories based on revenue and feedback                       |
+| **Outlet Establishment Type**     | Analyze sales performance by outlet age/type                             |
+| **Sales by Outlet Location**      | Map and compare regional demand trends                                   |
+| **Outlet Size vs Sales**          | Correlate physical outlet size with total sales                          |
+| **All Metrics by Outlet Type**    | Provide a unified KPI dashboard by outlet types                          |
 
-# Built With
+---
 
-Power BI Desktop
+## 📊 Dashboard Features (Power BI)
 
-Data Modeling (using DAX and Power Query)
+- Interactive filters for fat content, item type, and outlet location
+- Charts:
+  - Bar graphs, pie charts, and stacked visuals
+  - Percentage of sales by outlet size and location
+- Drill-down analysis for detailed performance tracking
 
-Custom Visuals (standard Power BI visuals)
+---
+
+## 🛠 Tools & Technologies
+
+- **Power BI** – For visualizations and dashboard creation
+- **MySQL** – For data cleaning and metric generation
+- **Excel** – Source data management and initial preprocessing
+
+---
+
+## 📂 Files Included
+
+| File Name                              | Description                                   |
+|----------------------------------------|-----------------------------------------------|
+| `BlinkIT Grocery Data.xlsx`            | Raw dataset                                   |
+| `Blinkit_Sales_by_fat_content.pbix`    | Power BI dashboard file                       |
+| `BLINKIT SALES ANALYSIS.pptx`          | SQL queries and business KPI documentation    |
+
+---
+
+## 📸 Screenshots
+
+> Upload your dashboard images in the repo and link them here.
+
+```md
+
+```
+<img width="660" alt="DASHBOARD-PHOTO" src="https://github.com/user-attachments/assets/3ff0afeb-ceb0-4c96-888a-653b2d3d74db" />
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/blinkit-sales-analysis.git
+   ```
+
+2. Open Power BI Desktop and load `Blinkit_Sales_by_fat_content.pbix`.
+
+3. Use the filters and slicers to explore the interactive dashboard.
+
+---
+
+## ✅ Outcomes
+
+- Delivered insights into how fat content and outlet type impact sales.
+- Enabled business users to identify underperforming regions and product types.
+- Enhanced reporting capability with dynamic visual storytelling via Power BI.
